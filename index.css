@@ -1,0 +1,66 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #fef1e1;
+}
+
+.container {
+    background-color: rgb(161, 137, 141);
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+#box_one:hover {
+    color: rgb(56, 44, 46);
+
+    font-size: large;
+}
+
+#box_two:hover {
+    color: rgb(56, 44, 46);
+
+    font-size: large;
+}
+
+#box_three:hover {
+    color: rgb(56, 44, 46);
+    
+    font-size: large;
+}
+
+#buttoms{
+    flex: 6;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5rem;
+}
+
+#logo {
+    flex: 1;
+}
+
+#logo:hover {
+    transition: font-size .3s ease;
+    font-size: 2rem;
+}
+
+
+
+footer {
+    background-color: rgb(161, 137, 141);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
