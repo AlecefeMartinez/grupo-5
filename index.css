@@ -55,7 +55,10 @@ body {
     font-size: 2rem;
 }
 
-
+a {
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+}
 
 footer {
     background-color: rgb(161, 137, 141);
