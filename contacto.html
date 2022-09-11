@@ -6,72 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="./contacto.css" />
-   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Contacto</title>
   </head>
   <body>
-    <header>
-      <nav class="container">
-        <li><a href="index.html" id="logo">logo</a></li>
-        <div id="buttoms">
-          <li><a href="pag.html" id="box_one">otra seccion</a></li>
-          <li><a href="pag2.html" id="box_two"> otra seccion</a></li>
-          <li><a href="pag3.html" id="box_three"> otra seccion</a></li>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <div class = "container-form">
-        <form id="form">
-          <h1>Contacto</h1>
-          <label for="name">Nombre</label>
-          <input type="text" name="name" id="name" placeholder="Nombre" />
-          <label for="email">Email</label>
-          <input
-            type="text"
-            name="email"
-            id="email"
-            placeholder="Mail"
-            pattern=".+@gmail.com"
-            size="30"
-          />
+    <div class="container">
+      <header>
+        <nav class="navbar-main">
+          <li><a href="index.html" id="logo">logo</a></li>
+          <div id="buttoms">
+            <li><a href="pag.html" id="box_one">otra seccion</a></li>
+            <li><a href="pag2.html" id="box_two"> otra seccion</a></li>
+            <li><a href="pag3.html" id="box_three"> otra seccion</a></li>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div id="container-form">
+          <form id="form">
+            <h1>Contacto</h1>
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" placeholder="Nombre" />
+            <label for="email">Email</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Mail"
+              pattern=".+@gmail.com"
+              size="30"
+            />
 
-          <label for="mensagge"> Mensaje</label>
-          <textarea
-            name="message"
-            id="message"
-            rows="4"
-            placeholder="Mensaje"
-          ></textarea>
-          <button class="btn" type="submit" id="submit">Enviar</button>
-        </form>
-      </div>
-    </main>
-    <footer>
-      <p>Creada por ....</p>
-      <li>
-        <a href="https://github.com/Ramless55" class="GH"
-          ><i class="fa-brands fa-github"> </i>Ramiro Morales</a
-        >
-      </li>
-      <li>
-        <a href="https://github.com/AlecefeMartinez" class="GH"
-          ><i class="fa-brands fa-github"></i> Ale Martinez</a
-        >
-      </li>
-      <li>
-        <a href="https://github.com/rodripavon97" class="GH"
-          ><i class="fa-brands fa-github"></i>Rodrigo Pavón</a
-        >
-      </li>
-      <li>
-        <a href="https://github.com" class="GH"
-          ><i class="fa-brands fa-github"></i> Joaquin Medina</a
-        >
-      </li>
-    </footer>
+            <label for="mensagge"> Mensaje</label>
+            <textarea
+              name="message"
+              id="message"
+              rows="4"
+              placeholder="Mensaje"
+            ></textarea>
+            <button class="btn" type="submit" id="submit">Enviar</button>
+          </form>
+        </div>
+      </main>
+      <footer>
+        <div class="footer-texto">
+          <li>
+            <p>Creada por ....</p>
+            <a href="https://github.com/Ramless55" class="GH"
+              ><i class="fa-brands fa-github"> </i>Ramiro Morales</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/AlecefeMartinez" class="GH"
+              ><i class="fa-brands fa-github"></i> Ale Martinez</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/rodripavon97" class="GH"
+              ><i class="fa-brands fa-github"></i>Rodrigo Pavón</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com" class="GH"
+              ><i class="fa-brands fa-github"></i> Joaquin Medina</a
+            >
+          </li>
+        </div>
+      </footer>
+    </div>
   </body>
+  <script src="contacto.js"></script>
 </html>
