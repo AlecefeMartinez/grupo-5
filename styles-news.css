@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background: whitesmoke;
+}
+
+#news-container {
+  align-content: center;
+}
+
+.news-card {
+  width: 50%;
+  margin: 15px 25%;
+  padding: 0.75em;
+  border: solid rgb(140, 138, 138);
+  border-radius: 1%;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+#image {
+  width: 100%;
+}
