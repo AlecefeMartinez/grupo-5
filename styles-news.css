@@ -1,0 +1,22 @@
+* { 
+  box-sizing: border-box;
+}
+
+body {
+  background: whitesmoke;
+}
+
+#news-container {
+  align-content: center;
+}
+.news-card {
+width: 50%;
+margin: 15px 25%;
+padding: 0.75em;
+border: solid rgb(140, 138, 138);
+border-radius: 1%;
+}
+
+#image {
+  width: 100%;
+}
